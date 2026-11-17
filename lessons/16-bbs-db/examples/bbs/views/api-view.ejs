@@ -1,0 +1,8 @@
+<%- include("partials/header", { title: title }) %>
+
+  <h1><%= title %></h1>
+  <p>この一覧は、ブラウザのJavaScriptが <code>/api/posts</code> から取得して表示している。</p>
+  <ul id="api-list"></ul>
+  <script src="/api-list.js"></script>
+
+<%- include("partials/footer") %>

@@ -1,0 +1,13 @@
+<%- include("partials/header", { title: title }) %>
+
+  <h1><%= title %></h1>
+
+  <div class="post">
+    <p>番号：<%= post.id %></p>
+    <p>名前：<%= post.name %></p>
+    <p>本文：<%= post.message %></p>
+    <p>日時：<%= post.created_at %></p>
+  </div>
+  <p><a href="/posts">一覧に戻る</a></p>
+
+<%- include("partials/footer") %>

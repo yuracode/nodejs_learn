@@ -1,0 +1,15 @@
+<%- include("partials/header", { title: title }) %>
+
+  <h1><%= title %></h1>
+  <p>この一覧は、ブラウザのJavaScriptが <code>/api/posts</code> から取得して表示している。</p>
+
+  <form id="api-form">
+    <p><label>名前：<input type="text" id="api-name"></label></p>
+    <p><label>本文：<input type="text" id="api-message" size="40"></label></p>
+    <button type="submit">APIで投稿する</button>
+  </form>
+
+  <ul id="api-list"></ul>
+  <script src="/api-list.js"></script>
+
+<%- include("partials/footer") %>

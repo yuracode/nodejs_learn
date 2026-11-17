@@ -1,0 +1,8 @@
+{
+  "name": "hello-express",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}

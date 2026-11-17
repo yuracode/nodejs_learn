@@ -1,0 +1,9 @@
+{
+  "name": "bbs",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "ejs": "^7.0.2",
+    "express": "^5.3.0"
+  }
+}

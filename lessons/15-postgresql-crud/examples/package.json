@@ -1,0 +1,9 @@
+{
+  "name": "crud-examples",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "pg": "^8.23.1"
+  }
+}

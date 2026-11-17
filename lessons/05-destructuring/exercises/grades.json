@@ -1,0 +1,8 @@
+[
+  { "name": "佐藤", "score": 70, "club": "テニス" },
+  { "name": "鈴木", "score": 85, "club": "野球" },
+  { "name": "高橋", "score": 55, "club": "テニス" },
+  { "name": "田中", "score": 90, "club": "吹奏楽" },
+  { "name": "伊藤", "score": 80, "club": "野球" },
+  { "name": "渡辺", "score": 40, "club": "美術" }
+]

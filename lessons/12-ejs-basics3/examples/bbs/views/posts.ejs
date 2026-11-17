@@ -1,0 +1,27 @@
+<%- include("partials/header", { title: title }) %>
+
+  <h1><%= title %></h1>
+
+  <% if (posts.length === 0) { %>
+    <p>まだ投稿がありません</p>
+  <% } else { %>
+    <p>投稿は <%= posts.length %> 件です</p>
+    <table>
+      <tr>
+        <th>番号</th>
+        <th>名前</th>
+        <th>本文</th>
+        <th>日時</th>
+      </tr>
+      <% posts.forEach((post) => { %>
+        <tr>
+          <td><%= post.id %></td>
+          <td><%= post.name %></td>
+          <td><a href="/posts/<%= post.id %>"><%= post.message %></a></td>
+          <td><%= post.created_at %></td>
+        </tr>
+      <% }); %>
+    </table>
+  <% } %>
+
+<%- include("partials/footer") %>
